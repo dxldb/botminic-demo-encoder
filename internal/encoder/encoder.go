@@ -10,7 +10,7 @@ import (
 )
 
 const __MAGIC__ int32 = -559038737
-const __FORMAT_VERSION__ int8 = 4
+const __FORMAT_VERSION__ int8 = 2
 
 var bufMap = make(map[uint64]*bytes.Buffer)
 var PlayerFramesMap = make(map[uint64][]FrameInfo)
